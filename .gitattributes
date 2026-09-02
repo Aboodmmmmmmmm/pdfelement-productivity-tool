@@ -1,0 +1,13 @@
+# Configuration for git attributes
+# Exclude build artifacts
+*.py linguist-detectable
+go.sum linguist-generated  
+**/*.py linguist-detectable
+
+* text=auto
+*.min.js linguist-generated
+* text=auto eol=lf
+*.md linguist-documentation
+*.htm linguist-vendored
+static/**/*.html linguist-vendored
+# eof 2b78013f
